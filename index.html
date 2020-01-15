@@ -5,16 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Log in</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form>
-    Login name:
-    <br>
-    <input type="text" name="logtname"><br>
-    Password:
-    <br>
-    <input type="text" name="password"><br>
-    <input type="submit" value="Submit">
-  </form>
+  <div id="container">
+    <div class="form-box">
+      <form>
+        <div class="form-style">
+          <label for="email">Email</label><br>
+          <input type="email" name="email" id="email" placeholder="Enter account email">
+        </div>
+        <div class="form-style">
+          <label for="password">Password</label><br>
+          <input type="password" name="password" id="password">
+        </div>
+        <div>
+          <button type="submit" class="btn">Submit</button>
+          <button type="reset" class="btn">Reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

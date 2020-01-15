@@ -1,0 +1,32 @@
+body {
+  background: rgb(45, 45, 244);
+  line-height: 1.8;
+}
+
+#container {
+  margin: 30px auto;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-box {
+  background: white;
+  padding: 20px 50px;
+}
+
+.form-style input{
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.form-box button{
+  background: rgb(60, 105, 240);
+  color: white;
+}
